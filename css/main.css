@@ -1,0 +1,119 @@
+/***********************************
+General Style
+***********************************/
+
+body {
+   background-color: white;
+   font-family: 'Quicksand', sans-serif;
+   color: black;
+   box-sizing: border-box;
+   margin: 0 20px;
+}
+
+#wrapper {
+   margin: 0 auto;
+   max-width: 945px;
+}
+
+h1 {
+   font-weight: 800;
+}
+
+.red {
+   /* background-color: red;*/
+   border: 1px red solid;
+}
+
+.green {
+   border: 1px green solid;
+}
+
+.blue {
+   border: 1px blue solid;
+}
+
+
+/***********************************
+Header Style
+***********************************/
+
+header {
+   border-bottom: 4px solid #BCBBBB;
+   height: 150px;
+}
+
+.logo {
+   width: 120px;
+   height: 120px;
+   float: left;
+   margin-top: 20px;
+}
+
+#header-right {
+   float: right;
+   padding-top: 30px;
+}
+
+@media (max-width: 600px) {
+   h1 {
+      font-size: x-large;
+   }
+}
+
+
+/***********************************
+Section Style
+***********************************/
+
+.hero {
+   width: 90%;
+   padding-top: 20px;
+   margin: 0 auto;
+   display: block;
+}
+
+.blue img {
+   display: block;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.green img {
+   display: block;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.red img {
+   display: block;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.row {
+   text-align: center;
+   padding-top: 20px;
+}
+
+
+/***********************************
+image Styling for media
+***********************************/
+
+@media (max-width: 1000px) {
+   .blue img {
+      display: block;
+      width: 50%;
+      margin: 0 auto;
+   }
+   .green img {
+      display: block;
+      width: 50%;
+      margin: 0 auto;
+   }
+   .red img {
+      display: block;
+      width: 50%;
+      margin: 0 auto;
+   }
+}
